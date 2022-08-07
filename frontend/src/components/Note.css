@@ -1,0 +1,32 @@
+.note-body {
+    background-color: rgb(136, 200, 232) !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.delete {
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(38, 38, 38);
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.delete:hover {
+    position: relative;
+    top: 1px;
+    color: red;
+}
