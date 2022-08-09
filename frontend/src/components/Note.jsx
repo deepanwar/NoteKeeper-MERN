@@ -9,20 +9,17 @@ function Note({ id, text, content, date, handleDeleteNote }) {
             className="note-body"
             href="/note/id"
             >
-
                 <span style={{
                     fontSize: "20px",
                     fontWeight: "bold",
                 }}>
                     {text}
                 </span>
-
                 <p style={{
                     fontStyle: "italic"
                 }} >
                     {content}
                 </p>
-
                 <div className='date' >
                     <small>{date}</small>
                     <div
